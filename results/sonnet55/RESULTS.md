@@ -29,3 +29,24 @@ judging has been done.
 Files: `sonnet55-results.zip` is the `run.py export` bundle (settings, event logs, verifier
 reports, GP files; no audio or software). The four `*/arrangement.gp` files are copies of the
 delivered scores.
+
+## Retry batch (02, 03, 08)
+
+Requested by the operator after the first batch. Same settings as above (Claude Code
+`claude-sonnet-5-5`, `high`, 3600 s, `--allow-audio-variant`), run as a separate batch
+(`batch-20261002T174121Z-d4870e71`); the first batch's results are unchanged and nothing was
+selected between attempts.
+
+| task | batch 1 | retry | retry elapsed (s) | output |
+|---|---|---|---:|---|
+| 02-fix-you | failed | process_failed | 321 | none |
+| 03-payphone | failed | process_failed | 764 | none |
+| 08-smooth-criminal | failed | process_failed | 553 | none |
+
+All three retries ended with the same `API Error: Output blocked by content filtering policy`
+and delivered no `arrangement.gp` (`parseable_score = 0`, `missing_or_ambiguous_submission`).
+So these three songs failed 2/2 with an identical error. The last tool calls before each block
+were ordinary audio-analysis scripts (librosa / pyin / pretty_midi); the logs do not show what
+triggered the filter. Bundle: `retry/sonnet55-retry-results.zip`.
+
+Overall for this Sonnet 5.5 run: 4 of 7 songs delivered a parseable score (04, 06, 09, 10).

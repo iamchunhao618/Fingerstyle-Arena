@@ -1,0 +1,7 @@
+# configured external software (never commit binaries/fonts/jars)
+opus55-eval/tools/vendor/
+opus55-eval/verifier/lib/*.jar
+opus55-eval/downloads/
+opus55-eval/runs/
+opus55-eval/tasks/*/environment/original.wav
+__pycache__/

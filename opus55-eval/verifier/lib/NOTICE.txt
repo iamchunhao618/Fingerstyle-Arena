@@ -1,0 +1,3 @@
+TuxGuitar 1.6.6 and its bundled Apache Commons dependencies: https://github.com/helge17/tuxguitar/releases/tag/1.6.6
+Rhino 1.7.15: https://github.com/mozilla/rhino/releases/tag/Rhino1_7_15_Release
+Original JAR copyright/license metadata retained. TuxGuitar distribution license included.

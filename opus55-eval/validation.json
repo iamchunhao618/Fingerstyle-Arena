@@ -1,0 +1,19 @@
+{
+  "bundle_revision": "3-windows-external-software-original-tasks",
+  "task_version": "0.2.2",
+  "checks_passed": [
+    "missing_software_blocks_model_launch",
+    "external_dependencies_reconfigured_and_patch_binary_matches",
+    "GP_readback_and_Chinese_PDF_passed",
+    "mock_agent_v022_two_tasks_completed_and_verified",
+    "environment_notes_unicode_and_toolchain_recorded",
+    "windows_creationflags_and_taskkill_tree_branch_unit_checked",
+    "all_seven_instructions_and_task_versions_unchanged",
+    "public_tree_has_no_software_binaries_fonts_or_audio"
+  ],
+  "real_opus_run": false,
+  "windows_host_integration_tested": false,
+  "windows_process_logic_unit_tested": true,
+  "test_host": "macOS; external dependencies and Java parser are real; model CLI is mocked.",
+  "checked_at": "2026-10-02T14:48:07.801991+00:00"
+}

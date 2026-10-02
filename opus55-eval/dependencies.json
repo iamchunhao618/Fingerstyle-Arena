@@ -1,0 +1,51 @@
+{
+  "tuxguitar_version": "1.6.6",
+  "tuxguitar_release_url": "https://github.com/helge17/tuxguitar/releases/tag/1.6.6",
+  "tuxguitar_original_distribution_url": "https://github.com/helge17/tuxguitar/releases/download/1.6.6/tuxguitar-1.6.6-macosx-swt-cocoa-x86_64.app.tar.gz",
+  "tuxguitar_jars": {
+    "tuxguitar-lib.jar": "94d99fe0736b65419a099bdb4d3415c15918ba490c2a3eeceeb94dbe8d801789",
+    "tuxguitar-gpx.jar": "7e81a132b8ad0df8347e2e83115deedb16a6045e1e20bbbd18e85b3c25fd4de3",
+    "tuxguitar-gtp.jar": "6f6b3305d42b1ffbf9c88e2a4d51ff618036e6afff99fff2ad8034a0eee0efcd",
+    "tuxguitar-ui-toolkit.jar": "c0ba490dd43bedbf1d241aad8408dc3f6e62c35e38adba5b162c7d1b5c417562",
+    "tuxguitar-pdf.jar": "a4854589e2a779370249fc5d749c42f8ab715cc790bbaf3b9472601c0f6bfa58",
+    "tuxguitar-editor-utils.jar": "6d4607074e886a0436d831d86ebd45324704861950c2b505728dad1770a66314",
+    "tuxguitar-awt-graphics.jar": "7a5c80f2e3a7ef7f7857469415268bbe4c64d856671227709fecaab015b87348",
+    "tuxguitar.jar": "5588c5a2cc997c6973a030ea795369f3669a22937cf2cfb565d51ff01eba2c19",
+    "itext-pdf.jar": "6e9ec05ac18b424166c61019ad1e8964269183b8a867c89a0207f222ae74ab8c",
+    "itext-xmlworker.jar": "5a231525f3f9b232431123d2851638eaf0a128e4ffcf425b2db19bcc426a1fa8",
+    "commons-compress.jar": "051aceb8bbcc62d0f5b2b8ac72c53767f9c59bfbd050151e65bef6f51c8ed9c9",
+    "commons-io.jar": "a58af12ee1b68cfd2ebb0c27caef164f084381a00ec81a48cc275fd7ea54e154"
+  },
+  "rhino": {
+    "version": "1.7.15",
+    "url": "https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.7.15/rhino-1.7.15.jar",
+    "sha256": "2427fdcbc149ca0a25ccfbb7c71b01f39ad42708773a47816cd2342861766b63"
+  },
+  "fonts": {
+    "fonts/NotoSansCJKsc-Regular.otf": {
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    "fonts/NotoSansCJKsc-Bold.otf": {
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Bold.otf",
+      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+    },
+    "fonts/LICENSE": {
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/LICENSE",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    }
+  },
+  "patch_sources": {
+    "PDFPainter.java": "b7d4092a4508482f589736e7b8a1da115ffca1e4e43671a411a4570cfdd65bce",
+    "PDFFont.java": "4a9b40292ed33130c67bcc3a831a2b35b6e0578b939689aee39f1e8a48e3fd55"
+  },
+  "historical_patch_jar_sha256": "3811a3b7ccd2a43a8e0ad612fa37b51fab9789097a609c32bd693bb209c33651",
+  "verifier_jars": [
+    "tuxguitar-gpx.jar",
+    "tuxguitar-gtp.jar",
+    "rhino-1.7.15.jar",
+    "commons-io.jar",
+    "tuxguitar-lib.jar",
+    "commons-compress.jar"
+  ]
+}
